@@ -172,6 +172,7 @@
 		13C9D526146CA10D00327D15 /* RHMultiValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMultiValue.m; sourceTree = "<group>"; };
 		13D15189193E7688003B0F45 /* RHAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RHAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D151AA193E7704003B0F45 /* RHAddressBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHAddressBook-Info.plist"; sourceTree = "<group>"; };
+		D559149C1EEA00B700118498 /* RHAddressBook.framework copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RHAddressBook.framework copy-Info.plist"; path = "/Users/daneo/Dev/Company/RHAddressBook/RHAddressBook.framework copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +301,7 @@
 				13C9D502146C5A8600327D15 /* Frameworks */,
 				13C2B75F14F5919300B7D658 /* AddressBookUI.framework */,
 				13C9D501146C5A8600327D15 /* Products */,
+				D559149C1EEA00B700118498 /* RHAddressBook.framework copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -708,6 +710,7 @@
 				GCC_PREFIX_HEADER = "RHAddressBookTester/RHAddressBookTester-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "RHAddressBookTester/RHAddressBookTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -727,6 +730,7 @@
 				GCC_PREFIX_HEADER = "RHAddressBookTester/RHAddressBookTester-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "RHAddressBookTester/RHAddressBookTester-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-ObjC";
@@ -857,6 +861,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				GCC_PREFIX_HEADER = "RHAddressBook/RHAddressBook-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -893,6 +898,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_PREFIX_HEADER = "RHAddressBook/RHAddressBook-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -955,6 +961,7 @@
 				13D1519E193E7688003B0F45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
